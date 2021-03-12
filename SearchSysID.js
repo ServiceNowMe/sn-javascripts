@@ -4,7 +4,7 @@
 
         //options
 
-        var searchId = "6ee0c1bbdb495054868294f7db96194f"; //Sys ID
+        var searchId = "6ee0c1bbdb495054868294f7db96194f"; //Sys ID to search
 
         var addLink = false;  
         //initialize
