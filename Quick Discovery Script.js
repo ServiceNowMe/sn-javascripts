@@ -2,7 +2,7 @@
 //IP Address as parameter
 ar sysid = sn_discovery.DiscoveryAPI.discoverIpAddress("10.101.20.56");
 gs.log(sysid );
-gs.sleep(30000)
+gs.sleep(30000);
 var ipResultObj = sn_discovery.DiscoveryAPI.reportCiIpAddressStatus("10.101.20.56", sysid);
 gs.info("ipResultObj(cmdb): " + ipResultObj.getCmdbCI());
 gs.info("ipResultObj(CiOperationStatus): " + ipResultObj.getCiOperationStatus());
